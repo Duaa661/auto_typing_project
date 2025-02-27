@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 4rem;
+}
+span{
+    color: brown;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+span::after{
+    content: '';
+    width: 2px;
+    height: 55px;
+    display: inline-block;
+    background-color: brown;
+    margin-left: 4px;
+}
